@@ -1,0 +1,45 @@
+
+*{
+    font-size:20px;
+}
+
+header{
+    background-color: aquamarine;
+    border: 2px solid pink;
+    height: 100px;
+}
+nav{
+    height: 50px;
+    margin: auto auto;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+article{
+    width: 70%;
+    height: 400px;
+    background-color:coral;
+    border: 2px solid black;
+    float: left;
+}
+figure{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    /* float: left; */
+}
+aside{
+    width: 29%;
+    height: 400px;
+    background-color: darksalmon;
+    border: 2px solid black ;
+    float: right;
+}
+footer{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    height: 100px;
+    margin-top: 400px;
+
+}

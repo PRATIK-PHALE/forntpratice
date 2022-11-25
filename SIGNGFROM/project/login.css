@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(/bg-img.jpg) ;
+    
+}
+.form{
+    
+    margin: 50px auto;
+    max-width: 400px;
+    border: 4px solid rgba(48, 29, 29, 0.349);
+background-color: rgba(128, 128, 128, 0.466);
+margin-top: 200px;
+}
+
+.header{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+.form-body{
+padding: 20px;
+
+}
+.label-title{
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    clear: left;    
+    color:rgb(243, 229, 192) ;
+}
+.input-title{
+    margin: 2px;
+    padding: 2px;
+    background-color: rgba(28, 119, 155, 0.74);
+color: burlywood;
+}
+::placeholder{
+    color: aliceblue;
+}
+#travling{
+   margin-left: 63px;
+}
+button{
+background-color: rgba(28, 119, 155, 0.74);
+color:aliceblue;
+}
+
+
+.submit{
+    text-align: center;
+color: aliceblue;
+   
+
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* img{
+    cursor: ;
+    height: 500px;
+    width: 600px; */
+/* }.foo {
+    cursor: crosshair;
+  }
+  
+  .bar {
+    cursor: zoom-in;
+  }
+   */
+  /* A fallback keyword value is required when using a URL */
+div.img {
+    cursor: url("hyper.cur"), auto;
+  }
+  
