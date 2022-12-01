@@ -1,0 +1,20 @@
+.box{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    /* transition-property: width ,height,background-color;
+    transition-duration: 2s, 2s, 2s; */
+    transition:all ,2s;
+/* transition: width,height,background-color,2s,2s,2s; */
+/* transition-timing-function: ease-in; */
+/* transition-timing-function: ease-out; */
+/* transition-timing-function:steps(4,end); */
+/* transition-timing-function: steps(4,start); */
+/* transition-timing-function: step-end; */
+transition-timing-function: cubic-bezier(0.1,0.5,0.4,0.1);
+}
+.box:hover{
+    width: 440px;
+    height: 440px;
+    background-color: darkgrey;
+}

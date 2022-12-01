@@ -2,20 +2,37 @@
     margin: 0;
     padding: 0;
 }
-/* img{
-    cursor: ;
-    height: 500px;
-    width: 600px; */
-/* }.foo {
-    cursor: crosshair;
-  }
-  
-  .bar {
-    cursor: zoom-in;
-  }
-   */
-  /* A fallback keyword value is required when using a URL */
-div.img {
-    cursor: url("hyper.cur"), auto;
-  }
-  
+
+#box1{
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+#box2{
+  position:relative;
+  top: -70px;
+  left: 30px;
+z-index: 1;
+  background-color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+}#box3{
+  position: relative;
+  top: -140px;
+  left: 60px;
+  z-index: 4;
+  background-color: rgb(123, 255, 0);
+  height: 100px;
+  width: 100px;
+}#box4{
+  position: relative;
+  top: -200px;
+  left: 100px;
+  z-index: 3;
+  background-color: rgb(204, 0, 255);
+  height: 100px;
+  width: 100px;
+}
