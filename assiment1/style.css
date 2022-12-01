@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-body{
+    /* display: flex; */
+    gap: 10px;
+}
+.header{
+    border: 3px solid black;
+    background-color: rgb(197, 162, 99);
+    width: 100%;
+    height: 80px;
+}
+.main-container{
+    border: 3px solid black;
+    background-color: darksalmon;
+    height: 600px;
+    width: 100%x;
+}
+.main-container1{
+    border: 2px solid black;
+background-color: indianred;
+height: 350px;
+width: 30%;
+float: left;
+}
+.main-container2{
+    border: 3px solid black;
+background-color: rgb(246, 153, 5);
+height: 170px;
+width: 69.2%;
+float: right;
+}
+.main-container3{
+    border: 3px solid black;
+background-color: rgb(220, 255, 44);
+height: 170px;
+width: 69.2%;
+float: right;
+}
+.main-container4{
+    border: 3px solid black;
+background-color: rgb(6, 169, 214);
+height: 250px;
+width: 100%;
+display: flex;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.container-child1,.container-child2,.container-child3,.container-child4{
+    border: 5px solid rgb(101, 227, 255);
+    height: 200px;
+    width: 200px;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+.box-image{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+position: relative;
+top: 10px;
+}
+.box-text{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+position: relative;
+top: 10px;
+/* margin: auto; */
+}
+.bottom1{
+    border: 3px solid black;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bottom-child1{
+    border: 5px solid rgb(1, 177, 162);
+    height: 80px;
+    width: 150px;
+}
+.bottom-child2{
+    border: 5px solid rgb(1, 177, 162);
+    height: 80px;
+    width: 150px;
+}
+.bottom-child3{
+   border: 5px solid rgb(1, 177, 162);
+    height: 80px;
+    width: 150px;
+}
+.bottom-child4{
+   border: 5px solid rgb(1, 177, 162);
+    height: 80px;
+    width: 150px;
+}
+.bottom2{
+    border: 3px solid black;
+    background-color: rgb(19, 87, 64);
+    height: 60px;
+    width: 100%;
+
+}
+
+
