@@ -65,3 +65,28 @@ button{
     background: linear-gradient(rgb(0, 255, 68) 5%,rgb(91, 175, 46) 90%);
 
 }
+@media  only screen  and (max-width:786px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .box1{
+        margin: 20px auto;
+
+    }
+    
+}
+/* @media  only screen  and (max-width:320px) {
+    .container{
+        display: flex;
+        float: left;
+        /* flex-direction: column; */
+        margin: 20px auto;
+    }
+    .box1{
+        margin: 20px ;
+
+    }
+    
+} */
