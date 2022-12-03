@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(120, 162, 170, 0.81);
+}
+.container{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.upper{
+    
+    /* background: linear-gradient(yellow 5%,red 90%); */
+    border-radius: 10px 10px 100px 0px;
+    height: 40%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.upper i{
+    color: white;
+    font-size:60px;
+}
+.mid{
+    text-align: center;
+    margin: 20px auto;
+}
+.lower{
+    /* background-color:greenyellow ; */
+    height: 15%;
+    display: grid;
+    place-content: center;
+}
+button{
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    /* background: linear-gradient(yellow 5%,red 90%); */
+    padding: 5px 20px;
+
+}
+.bgcolor1{
+    background: linear-gradient(yellow 5%,red 90%);
+
+}
+.bgcolor2{
+    background: linear-gradient(rgb(0, 119, 255) 5%,rgb(247, 0, 255) 90%);
+
+}
+.bgcolor3{
+    background: linear-gradient(rgb(0, 60, 255) 5%,rgb(0, 255, 238) 90%);
+
+}
+.bgcolor4{
+    background: linear-gradient(rgb(0, 255, 68) 5%,rgb(91, 175, 46) 90%);
+
+}
