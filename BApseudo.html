@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before after pseudo selector</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: aliceblue;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation{
+        font-size: 20px;
+        display: flex;
+    }
+    li{
+        list-style: none;
+        padding: 34px 23px;
+    }
+    section{
+        margin: 3px 23px;
+        display: flex;
+        flex-direction: column;
+    }
+    section::before{
+        content: "this is a content";
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About us</li>
+                <li class="item"> Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Welcome to coding world</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae minima doloribus tempora quam est delectus excepturi soluta temporibus aliquam deleniti? Mollitia non, ut tempora ipsa vel enim aliquid consectetur tempore?</p>
+        </section>
+    </header>
+</body>
+</html>
