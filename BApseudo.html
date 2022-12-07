@@ -10,12 +10,25 @@
     body{
         margin: 0;
         padding: 0;
-        background-color: black;
-        color: aliceblue;
+        color: rgb(73, 73, 73);
     }
     header{
         display: flex;
         flex-direction: column;
+    }
+    header::before{
+        content: "";
+        background-image:url(https://images.unsplash.com/photo-1590787996529-a542c86ca267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        width: 100%;
+        height:100%;
+        background-repeat: no-repeat;
+         position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.4;
+
     }
     .navigation{
         font-size: 20px;
@@ -23,16 +36,26 @@
     }
     li{
         list-style: none;
-        padding: 34px 23px;
+        padding: 20px 23px;
     }
     section{
+        /* border: 2px solid red; */
+        height: 344px;
         margin: 3px 23px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content:center;
     }
-    section::before{
-        content: "this is a content";
+    section h3{
+        font-size: 4rem;
     }
+    p{
+        text-align: center;
+    }
+    /* section::before{
+       content: "this my page";
+    } */
 </style>
 <body>
     <header>
@@ -44,10 +67,11 @@
                 <li class="item">Contact us</li>
             </ul>
         </nav>
+    </header>
         <section>
             <h3>Welcome to coding world</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae minima doloribus tempora quam est delectus excepturi soluta temporibus aliquam deleniti? Mollitia non, ut tempora ipsa vel enim aliquid consectetur tempore?</p>
         </section>
-    </header>
+        <hr>
 </body>
 </html>
