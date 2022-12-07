@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid
+    </title>
+    <style>
+        .container{
+            background-color: rgb(184, 0, 0);
+            height:600px;
+            position: relative;
+            top: 0;
+            display: grid;
+            grid-template-areas:"header header header header" "aside menu menu menu" "footer footer footer footer";
+        }
+        .header{
+background-color: aqua;
+height: 200px;
+grid-area: header;
+        }
+        .aside{
+background-color: rgb(6, 176, 12);
+height: 200px;
+grid-area: aside;
+        }
+        .main-menu{
+background-color: rgb(255, 0, 111);
+height: 200px;
+grid-area: menu;
+        }
+        .footer{
+background-color: rgb(217, 255, 0);
+height: 200px;
+grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="aside"></div>
+        <div class="main-menu"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
