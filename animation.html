@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container {
+            background-color: aquamarine;
+            height: 250px;
+        }
+
+        .box {
+            background-color: cadetblue;
+            height: 250px;
+            width: 300px;
+            position: relative;
+            /* animation-name: pratik1; */
+            /* animation-name: pratik2;
+            animation-duration: 5s; */
+            /* animation-fill-mode:forwards; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-direction: alternate; */
+            /* animation-direction: reverse; */
+/* These property can be set using this shorthand */
+/* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+animation: pratik2 5s ease-in-out 2s 4 forwards;
+
+        }
+
+        @keyframes pratik1 {
+            from {
+                width: 300px;
+            }
+
+            to {
+                width: 1200px;
+            }
+        }
+        @keyframes pratik2{
+            25%{
+                top: 0;
+                left: 0;
+            }
+            50%{
+                top: 0;
+                left: 300px;
+            }
+            75%{
+                top: 250px;
+                left: 300px;
+            }
+            100%{
+                top: 250px;
+                left: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
