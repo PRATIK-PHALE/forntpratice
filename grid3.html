@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid3</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(5,200px);
+            grid-template-rows: repeat(4,100px);
+            grid-gap: 20px;
+
+        }
+        .box{
+            border: 2px solid black;
+            background-color: burlywood;
+        }
+        .box:first-child{
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">THis is a box1</div>
+        <div class="box">THis is a box2</div>
+        <div class="box">THis is a box3</div>
+        <div class="box">THis is a box4</div>
+        <div class="box">THis is a box5</div>
+        <div class="box">THis is a box6</div>
+        <div class="box">THis is a box7</div>
+        <div class="box">THis is a box8</div>
+        <div class="box">THis is a box9</div>
+        <div class="box">THis is a box10</div>
+    </div>
+</body>
+</html>
