@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid4</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap:3px ;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-columns: repeat(auto-fit, minmax(200px,300px));
+            /* justify-content: center; */
+            
+        }
+        .box{
+border: 2px solid black;
+background-color: cornflowerblue;
+padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">this is a box1</div>
+        <div class="box">this is a box2</div>
+        <div class="box">this is a box3</div>
+        <div class="box">this is a box4</div>
+        <div class="box">this is a box5</div>
+        <div class="box">this is a box6</div>
+        <div class="box">this is a box7</div>
+        <div class="box">this is a box8</div>
+        <div class="box">this is a box9</div>
+        <div class="box">this is a box10</div>
+    </div>
+</body>
+</html>
