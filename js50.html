@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        var str ="Thiws is pratk heree";
+        console.log(str);
+        // first occurence of substring
+        var position = str.indexOf('s');
+        console.log(position);
+        // last occurence of substring
+        var position = str.lastIndexOf('s');
+        console.log(position);
+        // Substring from string
+        var substr = str.slice(0,1);
+        console.log(substr);
+        
+        var substr = str.substr(2,1);
+        console.log(substr);
+
+        // var replace= str.replace('is','don');
+        // console.log(str);
+        // console.log(replace);
+
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+       
+        var newstring=str.concat('New string');
+        console.log(newstring);
+
+        // .trim() remove the white spaces from star and end of string
+        var strwithwhitespaces="  This is     pratik     ";
+        console.log(strwithwhitespaces);
+        console.log(strwithwhitespaces.trim());
+
+        var char=str.charAt(3);
+        console.log(char);
+
+        var char2=str.charCodeAt(3);//not very imp
+        console.log(char2);
+
+        console.log(str[2])
+        </script>
+</body>
+</html>
