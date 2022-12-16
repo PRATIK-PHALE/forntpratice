@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>interactionusing alert confirm prompt</title>
 </head>
+
 <body>
     <div class="container">
         this is a page
@@ -20,27 +22,40 @@
         // console.log(name);
 
         // confirm js
-// let deletePost = confirm("do you really want to delete the post")
-// if(deletePost){
-//     // code to delete the post 
-//     console.log("your post has been sussecsfullly deleted")
-// }
-// else{
-//     // code to cancle the post 
-//     console.log("your post hai not been deleted")
-// }
-// console.log(deletePost);
+        // let deletePost = confirm("do you really want to delete the post")
+        // if(deletePost){
+        //     // code to delete the post 
+        //     console.log("your post has been sussecsfullly deleted")
+        // }
+        // else{
+        //     // code to cancle the post 
+        //     console.log("your post hai not been deleted")
+        // }
+        // console.log(deletePost);
 
-// <!-- you have to ask user his age if he  is above 18 allow him and if he is below dont allow   -->
-    let averageage = confirm("Are you 18+")
-    if(averageage){
-        console.log("you are allow")
-    }
-    else{
-        console.log("you are not allow")
-    }
-    
+        // <!-- you have to ask user his age if he  is above 18 allow him and if he is below dont allow   -->
+        //   let age=18;
+        //   if(age<18){
+        // alert("you can't drive");
+        //   }
+        // else if(age==18){
+        //     alert("allready you have author")
+        // }
+        //   else{
+        //     alert("you can drive")
+        //   }
+
+        // prompt
+        // let name=prompt();alert(name);
+        let name = prompt("your first name", "name");
+        let lastname = prompt("your last name", "last name");
+        alert(name + "," + lastname);
+
+        {
+            console.log(name, lastname);
+        }
     </script>
 
 </body>
+
 </html>
