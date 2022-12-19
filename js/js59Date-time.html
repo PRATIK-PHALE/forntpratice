@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h4>This is a container</h4>
+        current time is <span id="time"></span>
 
     </div>
 
@@ -31,6 +32,25 @@
 
        let yr = newDate.getFullYear();
        console.log(yr);
+
+       let Dt = newDate.getDate();
+       console.log(Dt);
+
+       let month = newDate.getMonth();
+       console.log(month);
+
+       let houre = newDate.getHours();
+       console.log(houre);
+
+      newDate.setDate(08);
+      newDate.setMinutes(56);
+      console.log(newDate);
+
+      setInterval(updatetime,1000);
+      function updatetime(){
+        time.innerHTML = new Date()
+      }
+
     </script>
 </body>
 </html>
